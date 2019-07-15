@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+body{
+	font-size: 16px;
+	color: #000;
+	background: #30697d url('../img/bg.jpg');
+}
+
+.nav{
+	
+
+
+}
+.info{
+	color: white;
+	padding-left: 1140px;
+	padding-top: 200px;
+}
+
+.about{
+	padding-top: 50px;
+	padding-left: 200px;
+}
+
+.tab button{
+	cursor: pointer;
+}
+.tablinks{
+	width: 85px;
+	height: 50px;
+	border: 0;
+	background-image: none;
+	background-color: transparent;
+	color: #999999;
+	justify-content: space-between;
+}
+
+.tablinks:active{
+	border: 0;
+}
+
+.tablinks:target{
+
+}
+
+.tablinks:hover{
+	text-align: center;
+	display: inline-block;
+	font-size: 18px;
+	margin: 0 auto;
+	border-bottom: 1px solid #999999;
+}
+
+a{
+	color: #cccccb;
+}
+
+.tabcontent{
+	display: none;
+	color: #cccccb;
+	padding-top: 60px;
+}
+
+.mail{
+	padding-top: 100px;
+	padding-left: 100px;
+}
