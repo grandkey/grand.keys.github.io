@@ -2,23 +2,24 @@
 body{
 	font-size: 16px;
 	color: #cccccb;
-	background: #30697d url('../img/bg.jpg');
+	background-size: auto, auto, cover;
+	background: #30697d url('../img/bg.jpg') no-repeat fixed;
 }
 
 .nav{
-	
-
-
-}
-.info{
+	right: 0;
+	float: right;
+	top: 0;
 	color: white;
-	padding-left: 1140px;
-	padding-top: 200px;
+}
+
+.logo{
+	left: 0;
+	top: 0;
 }
 
 .about{
-	padding-top: 50px;
-	padding-left: 200px;
+
 }
 
 .tab button{
@@ -55,13 +56,20 @@ a{
 }
 
 .tabcontent{
+	word-wrap: normal;
 	display: none;
 	color: #cccccb;
 	padding-top: 60px;
 }
 
-.mail{
-	padding-top: 100px;
-	padding-left: 100px;
+footer{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	margin-right: 10px;
 	color: #cccccb;
+}
+
+@media (max-width: 794px){
+	font-size: 14px;
 }
